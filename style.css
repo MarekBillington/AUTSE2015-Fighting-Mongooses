@@ -1,0 +1,193 @@
+body {
+	background-color:white;
+}
+
+p {
+
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin-left: 2%;
+	margin-bottom: 2%;
+
+}
+
+a {
+
+	font-family: "Arial", "Helvetica", sans-serif;
+
+}
+
+a:hover {
+
+	color: white;
+
+}
+
+a:link {
+
+	color: black;
+
+}
+
+a:visited {
+
+	color: black;
+
+}
+
+h1 {
+
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin-left: 2%;
+	margin-top: 2%;
+
+}
+
+ul {
+
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin-left: 2%;
+	margin-top: 2%;
+
+}
+
+h2 {
+
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin-left: 2%;
+	margin-top: 2%;
+
+}
+
+label {
+	
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin-left: 2%;
+	margin-top: 2%;
+
+}
+
+input[type=submit] {
+
+	margin-left: 2%;
+
+}
+
+input[type=reset] {
+
+	margin-left: 2%;
+
+}
+
+hr {
+
+	width: 96%;
+
+}
+
+.webpage {
+	
+	display: inline-flex;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	height: 85%;
+	width: 90%;
+	background-color: #222222;
+
+}
+
+.menu {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 15%;
+	height: 260px;
+	background-color: black;
+
+}
+
+.links {
+	
+	margin-left: 20%;
+	margin-top: 15%;
+	float: initial;
+	text-align: center;
+	background-color: white;
+	width: 60%;
+}
+
+.links:hover {
+
+	background-color: #990000;
+
+}
+
+.content {
+	
+	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-right: 2%;
+	background-color: black;
+	width: 80%;
+	height: auto;
+
+}
+
+#index {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+	
+}
+
+#about {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+
+}
+
+#searchproc {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+
+}
+
+#searchform {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+
+}
+
+#postproc {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+
+}
+
+#postform {
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	background-color: white;
+
+}
+
+
+
