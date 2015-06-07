@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         <title>Rate Articles</title>
     </head>
     <body>
@@ -33,16 +33,18 @@
     		</div>
     		<div class="content">
     		    <div id="index">
+    		        <h1>Paper Rating</h1><hr>
                 <form>
-                    <u>Credibility</u><br>
+                    <h2>Credibility</h2>
                     <label>Rating: <input type='number' name='rating' min='1' max='5'/></label><br>
                     <label>Reason for Rating: <input type='text' name='ratingReason'/></label><br>
-                    <label>Ratee: <input type='text' name='ratee'/></label><br>
-                    <u>Evidence</u><br>
+                    <label>Ratee: <input type='text' name='ratee'/></label><br><br>
+                    <h2>Evidence</h2>
                     <label>Confidence Rating: <input type='number' name='confidenceRating' min='1' max='5'/></label><br>
                     <label>Reason for Rating: <input type='text' name='ratingReason'/></label><br>
                     <label>Ratee: <input type='text' name='ratee'/></label><br>
                 </form>
+                <br>
                 </div>
             </div>
         </div>
