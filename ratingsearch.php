@@ -43,6 +43,7 @@
                     <label>Confidence Rating: <input type='number' name='confidenceRating' min='1' max='5'/></label><br>
                     <label>Reason for Rating: <input type='text' name='ratingReason'/></label><br>
                     <label>Ratee: <input type='text' name='ratee'/></label><br>
+                    <input type="submit" value="Submit">
                 </form>
                 <br>
                 </div>
