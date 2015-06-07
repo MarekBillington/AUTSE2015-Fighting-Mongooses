@@ -8,15 +8,14 @@
 		<div class="webpage">
 			<div class="menu">
 				<div class="links"><a href="index.php">Home</a></div>
-				<div class="links"><a href="postform.php">Upload a document</a></div>
-				<div class="links"><a href="searchform.php">Search for a document</a></div>
-				<div class="links"><a href="postarticle.php">Write a new article</a></div>
+				<div class="links"><a href="login.php">Log In</a></div>
+				<div class="links"><a href="searchform.php">Search for a Document</a></div>
+				<div class="links"><a href="about.php">About this Website</a></div>
 			</div>
 			<div class="content">
 				<div id="index">
 				<h1>Article Posting Form</h1>
 				<hr>
-
 
 	<?php
 	//Function to check article title length.
@@ -50,7 +49,10 @@
     $db = mysqli_connect($servername, $username, $password, $database, $dbport) or die(mysql_error());
 
 	//Checks if article title is unique via a query on the database.
-	$searchCode = "SELECT title FROM artTable WHERE title='".$articleTitle."';";
+	$searchCode = <<<SQLBLOCK
+	SELECT title FROM artTable WHERE title='$articleTitle';
+SQLBLOCK;
+
 	$queryinSearch =@mysqli_query($db, $searchCode);
 	$countofRows =$queryinSearch->num_rows;
 	
@@ -75,8 +77,7 @@
 	
 	//Closes the connection and provides links to create another status or to main page.
 	//mysqli_close($db);
-	echo "<p><a href='postarticle.php'>Write another Article.</a></p>";
-	echo "<p><a href='index.php'>Back to Main Page.</a></p>";
+	header("location:postarticle2.php");
 	?>
 	</div>
 	</div>
