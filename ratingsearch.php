@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    	<link href="style.css" rel="stylesheet">
         <title>Rate Articles</title>
     </head>
     <body>
